@@ -1,0 +1,20 @@
+main{
+    color:  lightblue;
+    background: lightslategrey;
+}
+#header{
+    font-size: 20px;
+    background: cadetblue;
+}
+.tabela{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    background-color: floralwhite;
+    width: 70%;
+}
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40%;
+}
