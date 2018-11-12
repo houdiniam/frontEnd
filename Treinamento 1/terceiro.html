@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Box sizing, formulários, responsividade e media queries</title>
+    <link rel="stylesheet" href="Assets/Css/terceiro.css">
+</head>
+
+<body>
+    <h1> Box sizing </h1>
+    <p> Define como o width e como o height são calculados </p>
+    <div class="box1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta soluta deserunt eveniet magnam deleniti error possimus doloremque
+        ducimus rem quos, quasi maxime cumque provident necessitatibus facere eum in. Rerum, non!
+    </div>
+    </br>
+    <div class="box2">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta soluta deserunt eveniet magnam deleniti error possimus doloremque
+        ducimus rem quos, quasi maxime cumque provident necessitatibus facere eum in. Rerum, non!
+    </div>
+
+    </br>
+    <h1> Formulários </h1>
+
+    <form action="">
+        <input type="text" name="nome" placeholder="Seu Nome">
+        <!-- </br> </br>    -->
+        <input type="text" name="sobrenome" placeholder="Seu sobrenome">
+        </br>
+        <input type="text" name="usuario" placeholder="Usuário">
+        <input type="password" name="senha" placeholder="Digite a senha"> </br>
+        <button type="button" name="botao" onclick="alert('Hello world')"> Login </button>
+
+        <h4>Nome do trainee</h4>
+        <select name="Trainees" id="">
+            <option value="marco"> Marco </option>
+            <option value="adriel" selected> Adriel </option>
+            <option value="mariana"> Mariana </option>
+            <option value="tomara"> Tomara </option>
+            <option value="fernando"> Fernando </option>
+        </select>
+
+        <h4> Qual semestre você está? </h4>
+        <input type="radio" name="semestre" checked> Entre o primeiro e o terceiro </br>
+        <input type="radio" name="semestre"> Entre o qaurto e o sétimo </br>
+        <input type="radio" name="semestre"> Oitavo ou nono </br>
+        <input type="radio" name="semestre"> Outro </br>
+        <input type="submit" name="enviar" value="Enviar"> </br>
+        <h4>Mensagem</h4>
+        <textarea name="meng" id="" cols="30" rows="10" placeholder="Nos envie uma mensagem"></textarea> <br>
+        <button type="button" name="botao2" onclick="alert('Mensagem enviada')"> Enviar Mensagem</button>
+
+        <h4>Reiniciar o formulário</h4>
+        <input type="reset" name="" id="">
+    </form>
+
+    </br>
+    <h1>Responsividade e media queries</h1>
+    <p> Altere o tamanho da tela para ver as diferenças </p>
+</body>
+
+</html>
