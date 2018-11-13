@@ -35,3 +35,41 @@ body{
         font-size: 20px;
     }
 }
+img{
+    width: 128px;
+    height: 200px;
+    float: right;
+}
+.bloco{
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 60px;
+    margin: 1em;
+}
+.one{
+    display: block;
+    /* width: 100px;
+    height: 100px; */
+    padding: 5px;
+    border: 1px solid black;
+    background-color: blue;
+}
+h2{
+    position: absolute;
+    /* left: 600px; */
+    /* top: 1900px; */
+    /* right: 200px; */
+    /* bottom: 560px; */
+}
+.relativo{
+    position: static;
+    border: 1px solid yellow;
+    width: 300px;
+    height: 100px;;
+}
+/* 
+POSITION STATIC: É O DEFAULT;
+POSITION ABSOLUT: VOCÊ PODE COLOCAR O ELEMENTO ONDE VOCÊ QUISER COM TOP, LEFT, RIGHT E BOTTOM;
+POSITION RELATIVE: RELATIVO AO SEU POSICIONAMENTO E PERMITE QUE OUTROS ELEMENTOS PASSEM PELO MESMO.
+*/
