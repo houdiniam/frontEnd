@@ -41,7 +41,7 @@ img{
     float: right;
 }
 .bloco{
-    display: inline-block;
+    display: flex;
     border: 1px solid black;
     width: 200px;
     height: 60px;
@@ -63,10 +63,12 @@ h2{
     /* bottom: 560px; */
 }
 .relativo{
-    position: static;
-    border: 1px solid yellow;
+    position: relative;
+    border: 1px solid black;
     width: 300px;
-    height: 100px;;
+    height: 100px;
+    right: -300px;
+
 }
 /* 
 POSITION STATIC: É O DEFAULT;
