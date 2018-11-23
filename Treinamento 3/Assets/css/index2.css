@@ -1,0 +1,19 @@
+div+p{
+    background-color: aquamarine;
+    font-family: cursive;
+    font-size: 4px;
+}
+
+div>p{
+    background-color: orange;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.boxx{
+    border: 1px solid black;
+    /* display: inline-block; */
+    /* height: 80px; */
+    /* width: 200px; */
+    padding: 20px;
+}

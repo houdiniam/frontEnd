@@ -10,6 +10,7 @@
     padding: 30px;
 
 }
+
 .box2{
     box-sizing: border-box;
     width: 30%;
@@ -55,12 +56,14 @@ img{
     border: 1px solid black;
     background-color: blue;
 }
-h2{
+
+.hir2{
     position: absolute;
+
     /* left: 600px; */
     /* top: 1900px; */
     /* right: 200px; */
-    /* bottom: 560px; */
+    bottom: 850px;
 }
 .relativo{
     position: relative;
@@ -68,10 +71,22 @@ h2{
     width: 300px;
     height: 100px;
     right: -300px;
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
-POSITION STATIC: É O DEFAULT;
+POSITION STATIC: É O DEFAULT;   
 POSITION ABSOLUT: VOCÊ PODE COLOCAR O ELEMENTO ONDE VOCÊ QUISER COM TOP, LEFT, RIGHT E BOTTOM;
 POSITION RELATIVE: RELATIVO AO SEU POSICIONAMENTO E PERMITE QUE OUTROS ELEMENTOS PASSEM PELO MESMO.
 */

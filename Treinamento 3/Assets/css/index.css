@@ -1,0 +1,41 @@
+div+h3 {
+    background-color: aqua;
+    font-family: fantasy;
+}
+/* ELEMENTOS POSICIONADOS LOGO APÓS A TAG */
+div+img{
+    width: 700px;
+}
+
+div > p{
+    background-color: green;
+} 
+/* ELEMENTOS ONDE O PAI É UMA DIV, PORÉM SE FOR SÓ O ESPAÇO PEGA TODOS OS ELEMENTOS DENTO DA DIV */
+
+section ~ ul{
+    background-color: navy;
+}
+/* SELECIONA O UL QUE PRECEDE A SECTION */
+h2{
+    position: absolute;
+    /* left: 600px; */
+    /* top: 1900px; */
+    /* right: 200px; */
+    /* bottom: 560px; */
+}
+.relativo{
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    right: -300px;
+
+}
+select{
+    display: block;
+}
+/* 
+POSITION STATIC: É O DEFAULT;   
+POSITION ABSOLUT: VOCÊ PODE COLOCAR O ELEMENTO ONDE VOCÊ QUISER COM TOP, LEFT, RIGHT E BOTTOM;
+POSITION RELATIVE: RELATIVO AO SEU POSICIONAMENTO E PERMITE QUE OUTROS ELEMENTOS PASSEM PELO MESMO.
+*/

@@ -1,0 +1,35 @@
+.tabela{
+    width: 60%;
+    padding: 60px;
+    background-color: lightcyan;
+    /* margin-left: 350px; */
+}
+.fomulario{
+    background-color: lightblue;
+    margin-bottom: 100px;
+    /* margin-left: 350px; */
+    padding: 60px;
+    width: 60%;
+    padding: 10px;
+    margin-top: 100px;
+}
+body{
+    background-color: lightcoral;
+}
+.centro{
+    text-align: center;
+}
+.cartao{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
